@@ -54,7 +54,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Screenshots
 
-![Screenshot 1](./src/screenshots/Client management.png)
+![Screenshot 1](./src/screenshots/Client.png)
 *Fitness-Trainer-UI*
 
 ![Screenshot 2](./src/screenshots/screenshot2.png)
