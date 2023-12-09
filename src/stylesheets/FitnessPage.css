@@ -1,0 +1,118 @@
+/* FitnessTrainer.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+}
+
+.fitness-trainer-container {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+}
+
+.user-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.user-table td {
+  background-color: #ffffff;
+}
+
+.client-row:hover {
+  transform: scale(1.05);
+}
+
+.client-details {
+  padding: 20px;
+}
+
+.client-details input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.appointments-field {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.appointment-item {
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 0 8px 8px 0;
+  color: #495057;
+}
+
+.appointment-item:last-child {
+  margin-right: 0;
+}
+
+.user-table td {
+  position: relative;
+}
+
+.add-appointment-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.date-picker-wrapper {
+  position: relative;
+}
+
+.calendar-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  color: #007bff;
+}
+
+/* Add this to your existing styles in FitnessPage.css */
+.fitness-trainer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show-calendar-button {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Optional: Hide the button when the calendar is visible */
+.show-calendar-button.hide {
+  display: none;
+}
