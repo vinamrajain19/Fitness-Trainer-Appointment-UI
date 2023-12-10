@@ -1,6 +1,6 @@
 # Fitness Trainer App
 
-The Fitness Trainer App is a web application that allows fitness trainers to manage their clients and appointments easily.
+The Fitness Trainer App is a web application that allows fitness trainers to manage their clients and appointments easily. Right now I have added clients manually, but we can integrate the backend and database as well to extract clients from the server and their details.
 
 ## Table of Contents
 
